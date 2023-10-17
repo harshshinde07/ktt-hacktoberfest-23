@@ -33,5 +33,5 @@ else console.log("Element not found!");
 x = 6;
 
 if (iterativeFunction(arr, x, 0, arr.length-1))
-	document.write("Element found!");
-else document.write("Element not found!");									 
+	console.log("Element found!");
+else console.log("Element not found!");									 
